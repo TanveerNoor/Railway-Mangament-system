@@ -1,0 +1,130 @@
+body {
+    font-family: American Typewriter, serif;
+    background: url('39384496711_296f82a757_b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(84, 91, 99, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    filter: invert(100%); /* Make the logo white */
+}
+
+header h1 {
+    font-family: Rockwell;
+    margin: 0;
+    font-size: 230%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li img.head {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    filter: invert(100%); /* Make the logo white */
+}
+
+.login-register-box {
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.login-register-box:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 160px);
+    text-align: center;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.6); /* Adjusted transparency */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color to contrast with the dark background */
+}
+
+.hero h2 {
+    font-family: Book Antiqua;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
